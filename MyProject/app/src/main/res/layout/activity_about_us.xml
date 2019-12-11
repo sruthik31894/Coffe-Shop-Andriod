@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    >
+    <LinearLayout
+        android:background="#ffffff"
+        android:id="@+id/content_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="1"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/nameofapp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.20"
+            android:gravity="center"
+            android:text="Little Dairy"
+            android:textColor="#070707"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="-daily record"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"/>
+
+        <TextView
+            android:id="@+id/artwork"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:text="This will help you track your daily events and act as little friend who reminds you of everything and hold your memories"
+            android:textColor="#070707"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

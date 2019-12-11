@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/login"
+            android:title="Log In" />
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@mipmap/signup"
+            android:title="Sign Up" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@mipmap/todo"
+            android:title="To Do" />
+        <item
+            android:id="@+id/nav_uploadnotes"
+            android:icon="@mipmap/note12"
+            android:title="Upload Notes" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@mipmap/feedback"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@mipmap/abtus"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>

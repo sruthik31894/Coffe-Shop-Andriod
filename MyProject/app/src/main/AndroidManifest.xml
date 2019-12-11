@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.welcome.myproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Memories loading..!!!"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="Memories loading..!!!"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".Signup"
+            android:label="Signup" />
+        <activity
+            android:name=".UploadImg"
+            android:label="Upload Notes" />
+        <activity
+            android:name=".DisplayImage"
+            android:label="Notes Details" />
+        <activity
+            android:name=".ListActivity"
+            android:label="To-Do" />
+        <activity
+            android:name=".CreateActivity"
+            android:label="Create To-Do" />
+        <activity
+            android:name=".UpdateActivity"
+            android:label="Update To-Do" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".ContactUs"></activity>
+    </application>
+
+</manifest>

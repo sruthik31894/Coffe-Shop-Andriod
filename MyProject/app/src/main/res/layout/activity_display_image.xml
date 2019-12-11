@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayImage">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#f9f9f9"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_marginTop="10px"
+            android:background="#f9f9f9"
+            android:id="@+id/btnDelete"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="Delete Image" />
+
+        <ImageView
+            android:layout_marginTop="10px"
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/side_nav_bar" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
